@@ -1,0 +1,25 @@
+.app{
+    background-color: red;
+}
+.navbar{
+    font-family: var(--font-1);
+    background-color: var(--bg-colors);
+}
+.navbar-menu{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    justify-content: center;
+}
+.navbar-menu li,a{
+    list-style: none;
+    text-decoration: none;
+}
+.navbar-menu a{
+    color: var(--color-font);
+    font-weight: 500;
+}
+.navbar-menu a:hover{
+    opacity: .7;
+}
+

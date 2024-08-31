@@ -1,0 +1,55 @@
+.form{
+    position: absolute;
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.head{
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+.form-1 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: fit-content;
+    text-align: center;
+    padding: 3rem;
+
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.label {
+    font-size: 1rem;
+    margin-right: 1rem;
+    flex: 1;
+    text-align: left;
+}
+
+.input {
+    block-size: 1rem;
+    padding: 0.5rem;
+    flex: 2;
+    display: flex;
+    border-radius: .5rem;
+    border: 1px solid var(--secondary);
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+
